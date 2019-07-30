@@ -1,6 +1,7 @@
-function mostrar()
-{
-	alert('iteración while');
-
-
+function mostrar() {
+	var numero = 1
+	while (numero <= 10) {
+		alert(numero);
+		numero = numero + 1
+	}
 }//FIN DE LA FUNCIÓN
